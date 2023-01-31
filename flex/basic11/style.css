@@ -1,0 +1,21 @@
+@import url(basic.css);
+
+.container {
+    display: flex;
+}
+
+.item {
+    width: 400px;
+    /* flex: flex-grow flex-shrink flex-basis; 순서 */
+    /* flex-basis:auto 기본값 - auto의 의미는 item이 가진 width를 넓이로 한다는 의미 */
+    
+   /*  flex: 1; 은 아래와 같은 의미 */
+/*     flex-grow: 1; flex-shrink: 1; flex-basis: 0%; */
+
+flex: 1 1 auto; /* basis는 auto를 적어라 그래야 200을 잡아줌 */
+
+flex: 1 500px; 
+/* flex-grow: 1 flex-shrink: 1 flex-basis: 500px */
+
+}
+

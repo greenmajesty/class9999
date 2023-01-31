@@ -1,0 +1,14 @@
+@import url(basic.css);
+
+.container {
+    display: flex;
+    min-height: 800px;
+    flex-direction: column;
+
+}
+
+.item {
+    height: 500px;
+    flex-shrink: 0;
+}
+
